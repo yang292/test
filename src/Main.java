@@ -19,6 +19,6 @@ public class Main {
 
         // Returns time based on system clock zone
         Clock defaultClock = Clock.systemDefaultZone();
-        System.out.println("Clock : " + defaultClock.millis());
+        System.out.println("1212Clock : " + defaultClock.millis());
     }
 }
