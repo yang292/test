@@ -10,7 +10,7 @@ public class Main {
 
     public static void main(String[] args) {
         LocalDate today = LocalDate.now();
-        System.out.println("今天的日期为:"+today);
+        System.out.println("1今天的日期为:"+today);
         LocalDate nextWeek = today.plus(1, ChronoUnit.WEEKS);
         System.out.println("一周后的日期为:"+nextWeek);
 
