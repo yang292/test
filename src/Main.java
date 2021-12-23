@@ -15,7 +15,7 @@ public class Main {
         System.out.println("2一周后的日期为:"+nextWeek);
 
         Clock clock = Clock.systemUTC();
-        System.out.println("Clock : " + clock.millis());
+        System.out.println("1Clock : " + clock.millis());
 
         // Returns time based on system clock zone
         Clock defaultClock = Clock.systemDefaultZone();
