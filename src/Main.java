@@ -12,7 +12,7 @@ public class Main {
         LocalDate today = LocalDate.now();
         System.out.println("1今天的日期为:"+today);
         LocalDate nextWeek = today.plus(1, ChronoUnit.WEEKS);
-        System.out.println("一周后的日期为:"+nextWeek);
+        System.out.println("2一周后的日期为:"+nextWeek);
 
         Clock clock = Clock.systemUTC();
         System.out.println("Clock : " + clock.millis());
